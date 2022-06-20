@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js" defer></script>
+</head>
+
+<body class="bg-black">
+    <div class="mx-auto p-20">
+        <form id="user-form" class="mb-7">
+            <div class="flex justify-between">
+                <div class="bg-green-500">
+                    <label for="" class="">Name</label>
+                    <input type="text" id="nameInput" class="px-4 py-3 border rounded" />
+                </div>
+                <div class="bg-green-500">
+                    <label for="" class="p-1">Username</label>
+                    <input type="text" id="usernInput" class="px-4 py-3 border rounded" />
+                </div>
+                <div class="bg-green-500">
+                    <label for="" class="p-1">Email</label>
+                    <input type="text" id="mailInput" class="px-4 py-3 border rounded" />
+                </div>
+                <button class="add-btn p-2 rounded-md text-white bg-blue-500">Add user</button>
+            </div>
+        </form>
+        <div id="user-items">
+            <h1 class="text-center text-white p-5">
+                Server loading...
+            </h1>
+        </div>
+    </div>
+</body>
+
+
+</html>
